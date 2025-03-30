@@ -26,7 +26,7 @@ export default function RootLayout() {
                   {/* Logo */}
                   <div className="flex-shrink-0 flex items-center">
                     <Link href="/">
-                      <Image alt='Logo' src="/logo_hq2.png" width={50} height={50} />
+                      <Image alt='Logo' src="./logo_hq2.png" width={50} height={50} />
                     </Link>
                   </div>
 
@@ -94,7 +94,7 @@ export default function RootLayout() {
 
                 {/* Centered iPhone mockup */}
                 <div className="mb-12">
-                  <Iphone15Pro src="/MainS.png" className="size-200" />
+                  <Iphone15Pro src="./MainS.png" className="size-200" />
                 </div>
 
                 <WorkflowSection />
@@ -112,10 +112,10 @@ export default function RootLayout() {
                   <Reviews />
                   <div className="flex justify-center items-center space-x-4 mt-8">
                     <Link href={"https://www.instagram.com/mexete.hq/"} >
-                      <Image src="/instagram.jpg" alt="Instagram logo" width={30} height={30} />
+                      <Image src="./instagram.jpg" alt="Instagram logo" width={30} height={30} />
                     </Link>
                     <Link href={"https://www.tiktok.com/@mexete.io?lang=en"}>
-                      <Image src="/tiktok.svg" alt="TikTok logo" width={70} height={70} />
+                      <Image src="./tiktok.svg" alt="TikTok logo" width={70} height={70} />
                     </Link>
                   </div>
                 </div>

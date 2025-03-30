@@ -59,7 +59,7 @@ const WorkoutFlowSection = () => {
 
         {/* iPhone Mockup */}
         <div className="mt-12">
-          <Iphone15Pro src="/HabitsTrack.png" className="size-200" />
+          <Iphone15Pro src="./HabitsTrack.png" className="size-200" />
         </div>
       </div>
     </div>
