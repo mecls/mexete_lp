@@ -8,11 +8,11 @@ const WorkflowSection = () => {
         {/* Text and Features Section */}
         <div className="text-center">
           <h1 className="text-5xl font-bold leading-tight mb-4">
-            Your workflow.
-            Your way.
+            Easy management.
+            One tool.
           </h1>
           <p className="text-gray-600 text-lg mb-6 max-w-2xl mx-auto">
-            All your projects, goals, calendars, roadmaps, and more—in one tool—personalized to how you and your team work.
+            All your tasks and subtasks by priority
           </p>
         </div>
 
@@ -28,7 +28,7 @@ const WorkflowSection = () => {
               </svg>
             </div>
             <h3 className="font-semibold text-lg mb-2">Tasks and to-dos</h3>
-            <p className="text-gray-600 text-sm">Tackle any project, big or small.</p>
+            <p className="text-gray-600 text-sm">Tackle any goal, big or small.</p>
           </div>
 
           {/* Custom views */}
@@ -41,7 +41,7 @@ const WorkflowSection = () => {
               </svg>
             </div>
             <h3 className="font-semibold text-lg mb-2">Custom views</h3>
-            <p className="text-gray-600 text-sm">Visualize work in any format, from calendars to boards.</p>
+            <p className="text-gray-600 text-sm">Easy visualization of what matters</p>
           </div>
 
           {/* Automations */}
@@ -52,14 +52,14 @@ const WorkflowSection = () => {
                 <path d="M12 8v4l3 3"/>
               </svg>
             </div>
-            <h3 className="font-semibold text-lg mb-2">Automations</h3>
-            <p className="text-gray-600 text-sm">Put tedious tasks on autopilot.</p>
+            <h3 className="font-semibold text-lg mb-2">Goal oriented</h3>
+            <p className="text-gray-600 text-sm">Streak, analytics and more</p>
           </div>
         </div>
 
         {/* iPhone Mockup */}
         <div className="mt-12">
-          <Iphone15Pro src="/taskPage.png" className="size-200" />
+          <Iphone15Pro src="/Tasks.png" className="size-200" />
         </div>
       </div>
     </div>

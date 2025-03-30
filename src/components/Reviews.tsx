@@ -23,19 +23,19 @@ const reviews = [
   {
     name: "Jane",
     username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Easy and simple to use. The analytics changed my view on how productive I really was.",
     img: "https://avatar.vercel.sh/jane",
   },
   {
     name: "Jenny",
     username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Didn't expect much since the photos and the website aren't amazing, but got surprized by how usefull and clean it is.",
     img: "https://avatar.vercel.sh/jenny",
   },
   {
     name: "James",
     username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Started using it myself, then my friends because it really is helpfull. Cant wait for some social features or something like that.",
     img: "https://avatar.vercel.sh/james",
   },
 ];

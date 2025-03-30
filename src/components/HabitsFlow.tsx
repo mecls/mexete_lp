@@ -1,18 +1,17 @@
 import React from 'react';
 import Iphone15Pro from '@/components/magicui/iphone-15-pro';
 
-const WorkflowSection = () => {
+const WorkoutFlowSection = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-16">
       <div className="flex flex-col items-center space-y-8">
         {/* Text and Features Section */}
         <div className="text-center">
           <h1 className="text-5xl font-bold leading-tight mb-4">
-            Your workflow.
-            Your way.
+          1% Better every day! Discipline made easy.
           </h1>
           <p className="text-gray-600 text-lg mb-6 max-w-2xl mx-auto">
-            All your projects, goals, calendars, roadmaps, and more—in one tool—personalized to how you and your team work.
+            Track your key habits and improve with full analytics on your performance every month!
           </p>
         </div>
 
@@ -27,8 +26,8 @@ const WorkflowSection = () => {
                 <polyline points="16 11 18 13 22 9"/>
               </svg>
             </div>
-            <h3 className="font-semibold text-lg mb-2">Tasks and to-dos</h3>
-            <p className="text-gray-600 text-sm">Tackle any project, big or small.</p>
+            <h3 className="font-semibold text-lg mb-2">Key Habits</h3>
+            {/* <p className="text-gray-600 text-sm">Define your habits<br/></p> */}
           </div>
 
           {/* Custom views */}
@@ -40,8 +39,9 @@ const WorkflowSection = () => {
                 <line x1="9" y1="21" x2="9" y2="9"/>
               </svg>
             </div>
-            <h3 className="font-semibold text-lg mb-2">Custom views</h3>
-            <p className="text-gray-600 text-sm">Visualize work in any format, from calendars to boards.</p>
+            <h3 className="font-semibold text-lg mb-2">Goal oriented</h3>
+            <p className="text-gray-600 text-sm">Analytics and key insights<br/> on your progression</p>
+          
           </div>
 
           {/* Automations */}
@@ -52,18 +52,18 @@ const WorkflowSection = () => {
                 <path d="M12 8v4l3 3"/>
               </svg>
             </div>
-            <h3 className="font-semibold text-lg mb-2">Automations</h3>
-            <p className="text-gray-600 text-sm">Put tedious tasks on autopilot.</p>
+            <h3 className="font-semibold text-lg mb-2">Easy Management</h3>
+            <p className="text-gray-600 text-sm">All your key habits<br/> side by side</p>
           </div>
         </div>
 
         {/* iPhone Mockup */}
         <div className="mt-12">
-          <Iphone15Pro src="/taskPage.png" className="size-200" />
+          <Iphone15Pro src="/HabitsTrack.png" className="size-200" />
         </div>
       </div>
     </div>
   );
 };
 
-export default WorkflowSection;
+export default WorkoutFlowSection;
