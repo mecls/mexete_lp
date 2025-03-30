@@ -2,20 +2,8 @@ import { Inter } from 'next/font/google';
 import Link from 'next/link';
 import Image from 'next/image';
 import './globals.css';
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-import { ReactNode } from 'react';
 import Iphone15Pro from '@/components/magicui/iphone-15-pro';
 import { Reviews } from '@/components/Reviews';
-import { Marquee } from '@/components/magicui/marquee';
-import {
-  BellIcon,
-  CalendarIcon,
-  FileTextIcon,
-  GlobeIcon,
-  InputIcon,
-} from "@radix-ui/react-icons";
-
-import { BentoCard, BentoGrid } from '@/components/magicui/bento-grid';
 import WorkflowSection from '@/components/TasksFlow';
 import HabitsFlow from '@/components/HabitsFlow';
 import PricingPlans from '@/components/PricingPlans';
@@ -25,8 +13,7 @@ export const metadata = {
   title: 'Mexete.io | Track Your Productivity & Fitness',
   description: 'Track your to-dos and workouts, build streaks, and gain insights with analytics.',
 };
-
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body className={inter.className}>

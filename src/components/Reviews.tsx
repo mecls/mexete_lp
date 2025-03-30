@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from "@/lib/utils";
+import Image from 'next/image';
 
 const reviews = [
   {
@@ -39,7 +40,6 @@ const reviews = [
     img: "https://avatar.vercel.sh/james",
   },
 ];
-
 const ReviewCard = ({
   img,
   name,
@@ -62,7 +62,14 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        {/* Replace <img> with Image */}
+        <Image 
+          className="rounded-full" 
+          src={img} 
+          alt={name} 
+          width={32} 
+          height={32} 
+        />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
