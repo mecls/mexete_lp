@@ -78,7 +78,6 @@ const ReviewCard = ({
 const Marquee = ({ 
   children, 
   reverse = false, 
-  pauseOnHover = false,
   className = ""
 }: {
   children: React.ReactNode;
@@ -109,12 +108,12 @@ export function Reviews() {
 
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-8">
-      <Marquee pauseOnHover>
+      <Marquee >
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="mt-4">
+      <Marquee reverse  className="mt-4">
         {secondRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}
