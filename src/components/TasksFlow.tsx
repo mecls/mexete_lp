@@ -59,7 +59,7 @@ const WorkflowSection = () => {
 
         {/* iPhone Mockup */}
         <div className="mt-12">
-          <Iphone15Pro src="/Tasks.png" className="size-200" />
+          <Iphone15Pro src="/out/Tasks.png" className="size-200" />
         </div>
       </div>
     </div>
