@@ -84,7 +84,7 @@ export default function RootLayout() {
                   {/* Centered Action buttons */}
                   <div className="flex justify-center gap-4 pt-3">
                     <button className="px-6 py-3 bg-orange-500 text-white font-medium rounded-lg hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-colors">
-                    Click Here to Start Your 14 Day FREE Trial
+                      Click Here to Start Your 14 Day FREE Trial
                     </button>
                     {/* <button className="px-6 py-3 bg-white text-orange-500 font-medium rounded-lg border border-orange-500 hover:bg-orange-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-colors">
                       See Plans
@@ -130,6 +130,9 @@ export default function RootLayout() {
               <div className="text-center text-xs text-gray-400">
                 &copy; {new Date().getFullYear()} mexete.io. All rights reserved.
               </div>
+              <Link href="/privacy" className="text-gray-700 hover:text-orange-400 inline-flex items-center px-1 pt-1 text-sm font-medium">
+                privacy policy
+              </Link>
             </div>
           </footer>
         </div>
